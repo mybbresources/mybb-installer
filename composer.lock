@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "mybbresources/mybb-tooling",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mybbresources/mybb-tooling-core.git",
-                "reference": "0b06e9ffce2a2fbc75196343b6fef76dde128da4"
+                "reference": "b533fdbb5a0ac35be8de7a51daf54a4c99e0e7b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mybbresources/mybb-tooling-core/zipball/0b06e9ffce2a2fbc75196343b6fef76dde128da4",
-                "reference": "0b06e9ffce2a2fbc75196343b6fef76dde128da4",
+                "url": "https://api.github.com/repos/mybbresources/mybb-tooling-core/zipball/b533fdbb5a0ac35be8de7a51daf54a4c99e0e7b0",
+                "reference": "b533fdbb5a0ac35be8de7a51daf54a4c99e0e7b0",
                 "shasum": ""
             },
             "require": {
@@ -42,10 +42,10 @@
             ],
             "description": "Shared secure package and catalog contracts for MyBB tooling",
             "support": {
-                "source": "https://github.com/mybbresources/mybb-tooling-core/tree/v0.1.0",
+                "source": "https://github.com/mybbresources/mybb-tooling-core/tree/v0.1.1",
                 "issues": "https://github.com/mybbresources/mybb-tooling-core/issues"
             },
-            "time": "2026-11-01T10:36:10+00:00"
+            "time": "2026-11-01T10:47:57+00:00"
         }
     ],
     "packages-dev": [],
