@@ -30,3 +30,7 @@ jobs:
         run: |
           php -l bin/mybb-install
           find src -type f -name '*.php' -print0 | xargs -0 -n 1 php -l
+      - name: Verify the separately resolved core dependency
+        run: |
+          php -r 'require "vendor/autoload.php"; if (MyBB\Tooling\CoreRuntime::PACKAGE !== "mybb-tooling-core" || is_dir("packages/mybb-tooling")) exit(1);'
+          php bin/mybb-install --help
