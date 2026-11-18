@@ -25,3 +25,5 @@ Build companion packages before installation with `php ../tools/build-bootstrap.
 Upgrade sources may start at MyBB 1.8.40; fresh installs and upgrade targets require 1.8.41 or later 1.8.x. This exception does not widen catalog plugin/toolchain compatibility. [The isolated official upgrade fixture](https://github.com/mybbresources/mybb-tooling-core/blob/main/sample-sites/README.md) documents the exact transition and its file-only database outcome.
 
 The distribution reference map pins production key `catalog-2026`. The signed core package alone owns the installed central trust ring; Admin CP reads that ring. A public pin does not authenticate a PHAR download or complete publication. See [release readiness](https://github.com/mybbresources/mybb-tooling-core/blob/main/RELEASING.md) for the fingerprint, rotation process, private candidate verification, and remaining release gates.
+
+[![advertisement](https://ads.servead.net/i/0ff019ba-cdeb-41a2-9af8-b58caae055a7.svg)](https://ads.servead.net/c/0ff019ba-cdeb-41a2-9af8-b58caae055a7)
